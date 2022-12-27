@@ -11,8 +11,7 @@
   <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/img/favicon.ico">
 
   <title><?php bloginfo('name'); wp_title();?></title>
+  <?php wp_head(); ?>
 </head>
 <body>
   
-</body>
-</html>
